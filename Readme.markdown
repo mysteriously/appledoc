@@ -1,4 +1,4 @@
-About appledoc
+		About appledoc
 ==============
 
 **IMPORTANT NOTICE:** [collaborators needed](http://gentlebytes.com/blog/2015/11/02/appledoc-contributors-needed/)
@@ -27,7 +27,7 @@ Quick install
 
 The recommended way is to clone GitHub project and compile the tool from Xcode. As cloning GitHub project will create the link to the main repository, it greatly simplifies future upgrading too. To install, type the following in the Terminal:
 
-	git clone git://github.com/tomaz/appledoc.git
+		git clone git://github.com/tomaz/appledoc.git
 
 This creates appledoc directory. Within you can find appledoc.xcworkspace Xcode workspace; open it and compile appledoc target - this should work out of the box, however your system must meet minimum system requirements, see below. I recommend you copy resulting appledoc executable from build directory to one of the directories in your path (`echo $PATH`) to make it easily accessible.
 
